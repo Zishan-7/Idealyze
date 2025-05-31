@@ -1,5 +1,5 @@
 {
-  "name": "idea-spark",
+  "name": "idealyze",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,9 +17,12 @@
     "lucide-react": "^0.511.0",
     "motion": "^12.15.0",
     "next": "15.3.3",
+    "openai": "^5.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.3.0"
+    "sonner": "^2.0.4",
+    "tailwind-merge": "^3.3.0",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

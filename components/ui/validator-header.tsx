@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import { Lightbulb } from "lucide-react";
+import { ThemeToggle } from "./theme-toggle";
 
 export function ValidatorHeader() {
   return (
@@ -9,8 +10,12 @@ export function ValidatorHeader() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="text-center"
+      className="text-center relative"
     >
+      <div className="absolute top-0 right-0">
+        <ThemeToggle />
+      </div>
+
       <div className="mb-6 flex justify-center">
         <div className="rounded-full bg-primary/10 p-3">
           <Lightbulb className="h-8 w-8 text-primary" />

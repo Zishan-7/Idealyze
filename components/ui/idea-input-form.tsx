@@ -60,8 +60,17 @@ export function IdeaInputForm({
             disabled={isDisabled || !idea.trim()}
             className="w-full bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-primary/20 disabled:opacity-50 disabled:cursor-not-allowed h-12 text-base font-medium transition-all duration-200"
           >
-            <TrendingUp className="mr-2 h-5 w-5" />
-            Validate Idea
+            {isDisabled ? (
+              <>
+                <div className="mr-2 h-5 w-5 animate-spin rounded-full border-2 border-current border-t-transparent" />
+                Validating with AI...
+              </>
+            ) : (
+              <>
+                <TrendingUp className="mr-2 h-5 w-5" />
+                Validate Idea
+              </>
+            )}
           </Button>
         </CardContent>
       </Card>
