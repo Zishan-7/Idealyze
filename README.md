@@ -2,7 +2,7 @@
 
 A beautiful, AI-powered web application that validates startup ideas using OpenAI's GPT-4o-mini. Get comprehensive analysis including market potential, competition analysis, SWOT evaluation, and actionable recommendations.
 
-![Startup Idea Validator](https://img.shields.io/badge/Next.js-15+-black?style=for-the-badge&logo=next.js)
+![Idealyze](https://img.shields.io/badge/Next.js-15+-black?style=for-the-badge&logo=next.js)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4+-06B6D4?style=for-the-badge&logo=tailwindcss)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Latest-0055FF?style=for-the-badge&logo=framer)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?style=for-the-badge&logo=openai)

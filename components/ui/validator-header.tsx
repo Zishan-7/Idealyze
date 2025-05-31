@@ -22,7 +22,7 @@ export function ValidatorHeader() {
         </div>
       </div>
       <h1 className="mb-4 text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-        Startup Idea Validator
+        Idealyze
       </h1>
       <p className="mb-12 text-lg text-muted-foreground sm:text-xl">
         Transform your ideas into actionable insights with AI-powered validation

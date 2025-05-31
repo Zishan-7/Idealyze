@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Startup Idea Validator | Transform Ideas into Insights",
+  title: "Idealyze | Transform Ideas into Insights",
   description:
     "Validate your startup ideas with AI-powered analysis. Get actionable insights on market potential, competition, and business viability.",
   icons: {
